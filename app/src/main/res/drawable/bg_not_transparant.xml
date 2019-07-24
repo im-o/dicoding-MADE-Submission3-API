@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorAccent"/>
+            <corners
+                android:bottomRightRadius="@dimen/margin_size_normal"
+                android:bottomLeftRadius="@dimen/margin_size_normal"
+                android:topLeftRadius="@dimen/margin_size_normal"
+                android:topRightRadius="@dimen/margin_size_normal"/>
+            <padding
+                android:top="@dimen/margin_size_low"
+                android:bottom="@dimen/margin_size_low"
+                android:left="@dimen/margin_size_low"
+                android:right="@dimen/margin_size_low"
+                />
+        </shape>
+    </item>
+</selector>
